@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-image: url("../cardapio/img/fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column; /* Adicionado para alinhar verticalmente */
+  text-align: center; /* Adicionado para alinhar o texto centralmente */
+  padding-top: 20px; /* Espaçamento superior */
+}
+
+h1 {
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  margin-bottom: 0;
+  margin-top: 20px;
+ 
+}
+h4 
+{
+  color:#fff
+}
+.menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  max-width: 800px;
+  width: 90%;
+}
+
+.menu-item {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.burger-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.item-info {
+  flex-grow: 1;
+}
+
+h3 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+}
+.zap-img {
+  width: 50px; /* Defina o tamanho desejado */
+height: 40px; /* Mantém a proporção original da imagem */
+border-radius: 10px;
+margin-right: 20px;
+}
